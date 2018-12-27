@@ -1,5 +1,5 @@
 
-                                         ![logo](docs/create-for-good.jpeg)
+ <center>![logo](docs/create-for-good.jpeg)</center>
  ## CS 2400 (Introduction to Computer Science I), Spring 2019, Ohio University, EECS 
  #### Contact: Nasseef Abukamail (abukamai@ohio.edu)
 

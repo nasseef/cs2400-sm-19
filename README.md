@@ -126,7 +126,7 @@ https://education.github.com/students
 ### Linux Commands and Remote Login/File Transfer
 Here are some Linux commands and instructions to access our system remotely.
 
-[Linux Commands and Remote Access](docs/linux.pdf)
+[Linux Commands and Remote Access](docs/linux.md)
 
 ### SFTP Client
 Ocasionaly you need to transer your files from your machine to our Ubuntu system and vice versa. In order to do this you need to use an SFTP (Secure File Transfer Protocol) client. Here are few SFTP clients:

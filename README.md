@@ -1,5 +1,6 @@
 
  ## CS 2400 (Introduction to Computer Science I), Spring 2019, Ohio University, EECS 
+
  #### Contact: Nasseef Abukamail (abukamai@ohio.edu)
 
 ---
@@ -23,12 +24,13 @@
 - [Linux Commands and Remote Login/File Transfer](#linux-commands-and-remote-loginfile-transfer)
 - [SFTP Client](#sftp-client)
 - [Coding Style](#coding-style)
+  
 ### Installing **C/C++** compiler
 * Mac: 
 
     Install Xcode and run it once.
 * Linux:
-    
+
     Should already come with GNU g++ preinstalled.
 
 * Windows:
@@ -136,5 +138,6 @@ Ocasionaly you need to transer your files from your machine to our Ubuntu system
 * [Fetch (Mac only)](https://fetchsoftworks.com/)
   
 ### Coding Style
-Refer to this document when writing code. 
+
+It is very important to follow a good/standard coding style. Refer to this document when writing code.
 [CS 2400 Coding Style](docs/coding-style.md)

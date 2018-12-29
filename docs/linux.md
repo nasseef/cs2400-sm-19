@@ -15,7 +15,7 @@
 
 Your home directory is located under ```/home/<username>```. If your user/login name is ```jsmith``` then your home directory is ```/home/jsmith```. You are encouraged to create a separate directory for each of your classes and a separate diretory within your class for homeworks and labs.
 
-```python
+```sh
 pwd                       # Show working directory
 cd dir1                   # change to directory dir1
 cd or cd ~                # go to home directory
@@ -58,7 +58,7 @@ g++ -std=c++11 -Wall myprogram.cc
 If you are using Windows, download [Putty.exe](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). If you are using Linux or a Mac you should already have ```ssh``` installed on your system and it should be accessible from a terminal.
 
 #### Windows (SSH)
-* Run Putty.exe
+* Run ```Putty.exe```
 * Enter one of our machine addresses ```oddxx.cs.ohio.edu``` (replace ```xx``` with ```01, 03, 05, etc.```)
 * You should be promted for your user name and password
 * After you login you should be in your home directory. You can now execute any of the commands above.

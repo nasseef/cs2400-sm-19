@@ -22,6 +22,7 @@
   - [Create a GitHub account](#create-a-github-account)
 - [Linux Commands and Remote Login/File Transfer](#linux-commands-and-remote-loginfile-transfer)
 - [SFTP Client](#sftp-client)
+- [Coding Style](#coding-style)
 ### Installing **C/C++** compiler
 * Mac: 
 
@@ -134,3 +135,6 @@ Ocasionaly you need to transer your files from your machine to our Ubuntu system
 * [FileZilla](https://filezilla-project.org/)
 * [Fetch (Mac only)](https://fetchsoftworks.com/)
   
+### Coding Style
+Refer to this document when writing code. 
+[CS 2400 Coding Style](docs/coding-style.md)

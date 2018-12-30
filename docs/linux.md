@@ -4,11 +4,11 @@
 - [Linux command](#linux-command)
   - [Directory commands](#directory-commands)
   - [File commands](#file-commands)
+  - [Editing Files](#editing-files)
   - [Compiling and Running C++ Programs](#compiling-and-running-c-programs)
-  - [Remote Login via SSH (Secure Shell)](#remote-login-via-ssh-secure-shell)
+- [Remote Login via SSH (Secure Shell)](#remote-login-via-ssh-secure-shell)
     - [Windows (SSH)](#windows-ssh)
     - [Mac/Linux (SSH)](#maclinux-ssh)
-  - [Editing Files](#editing-files)
 ## Linux command
 
 ### Directory commands
@@ -40,6 +40,16 @@ head -20 myfile.cc        # Display the first 20 lines of myfile.cc
 tail myfile.cc            # Display the last 20 lines of myfile.cc
 grep xyz *                # Search all files for the content "xyz"
 ```
+
+### Editing Files
+```sh
+code filename.cc          # Open filename.cc in VS Code
+atom filename.cc          # Open filename.cc in Atom 
+nano filename.cc          # Open filename.cc in nano
+vim  filename.cc          # Open filename.cc in vim
+emacs filename.cc         # Open filename.cc in emacs
+```
+
 ### Compiling and Running C++ Programs
 
 ```sh
@@ -54,8 +64,8 @@ g++ -std=c++11 -Wall myprogram.cc
     # compiles the program with C++11
 ```
 
-### Remote Login via SSH (Secure Shell)
-If you are using Windows, download [Putty.exe](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). If you are using Linux or a Mac you should already have ```ssh``` installed on your system and it should be accessible from a terminal.
+## Remote Login via SSH (Secure Shell)
+If you are using Windows, download [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). If you are using Linux or a Mac you should already have ```ssh``` installed on your system and it should be accessible from a terminal.
 
 #### Windows (SSH)
 * Run ```Putty.exe```
@@ -68,11 +78,3 @@ If you are using Windows, download [Putty.exe](https://www.chiark.greenend.org.u
 * Run the command ```ssh <loginname>@oddxx.cs.ohio.edu``` (make sure you use your login name and replace ```xx``` with ```01, 03, 05, etc.```)
 * After you enter your password you should be in your home directory. You can now execute any of the commands above.
 
-### Editing Files
-```sh
-code filename.cc          # Open filename.cc in VS Code
-atom filename.cc          # Open filename.cc in Atom 
-nano filename.cc          # Open filename.cc in nano
-vim  filename.cc          # Open filename.cc in vim
-emacs filename.cc         # Open filename.cc in emacs
-```

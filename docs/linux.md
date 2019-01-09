@@ -44,7 +44,7 @@ grep xyz *                # Search all files for the content "xyz"
 ### Editing Files
 ```sh
 code filename.cc          # Open filename.cc in VS Code
-atom filename.cc          # Open filename.cc in Atom 
+atom filename.cc          # Open filename.cc in Atom
 nano filename.cc          # Open filename.cc in nano
 vim  filename.cc          # Open filename.cc in vim
 emacs filename.cc         # Open filename.cc in emacs
@@ -60,7 +60,7 @@ g++ -Wall myprogram.cc -o myprog
     # Compiles myprogram.cc and creats the executable myprog
 ./myprog                  # runs the program
 
-g++ -std=c++11 -Wall myprogram.cc 
+g++ -std=c++11 -Wall myprogram.cc
     # compiles the program with C++11
 ```
 

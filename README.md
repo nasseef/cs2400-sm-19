@@ -1,14 +1,14 @@
 
- ## CS 2400 (Introduction to Computer Science I), Spring 2019, Ohio University, EECS 
+ ## CS 2400 (Introduction to Computer Science I), Spring 2019, Ohio University, EECS
 
  #### Contact: Nasseef Abukamail (abukamai@ohio.edu)
 
 ---
 
-  Welcome to CS 2400. In this class we will be writing programs in C++. In order to prepare for class, you need to install a C++ compiler and other software tools on your own machines. Please keep in mind that all the tools needed for the class are also available on our lab machines (Stocker 107 and 307A). The labs are open all day and can be accessed [remotely](#linux-commands-and-remote-loginfile-transfer). We will also be using [Git/GitHub](#gitgithub) for source/version control. 
+  Welcome to CS 2400. In this class we will be writing programs in C++. In order to prepare for class, you need to install a C++ compiler and other software tools on your own machines. Please keep in mind that all the tools needed for the class are also available on our lab machines (Stocker 107 and 307A). The labs are open all day and can be accessed [remotely](#linux-commands-and-remote-loginfile-transfer). We will also be using [Git/GitHub](#gitgithub) for source/version control.
 
   **All examples discussed in class will be posted on this site.**
-  
+
 ---
 - [Installing **C/C++** compiler](#installing-cc-compiler)
 - [Compiling and running the examples in this repository](#compiling-and-running-the-examples-in-this-repository)
@@ -24,9 +24,9 @@
 - [Linux Commands and Remote Login/File Transfer](#linux-commands-and-remote-loginfile-transfer)
 - [SFTP Client](#sftp-client)
 - [Coding Style](#coding-style)
-  
+
 ### Installing **C/C++** compiler
-* Mac: 
+* Mac:
 
     Install Xcode and run it once.
 * Linux:
@@ -70,7 +70,7 @@ You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend
 * [Vim](https://www.vim.org)
 * [nano](https://www.nano-editor.org/)
 * and many others ....
-  
+
 ### VS Code Customization
 
 #### Extensions
@@ -86,7 +86,7 @@ You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend
 * Modify the cpp option to the following:
 
          "cd $dir && g++ -Wall -g $fileName && ./a.out"
-  
+
          On Windows use "a.exe" instead of "./a.out"
 
 #### Configure the Debugger
@@ -95,13 +95,18 @@ You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend
    * Click on the debug icon on the left
    * Click on the green arrow in the left panel, this should allow you to edit the debug options in "launch.json".
    * Change the "program" option to:
-  
+
          "${workspaceFolder}/a.out"
 
         If you are renaming your executable file the same as the name of the program without the extension (for example test.cpp to test), then use the following value:
-  
+
          "${workspaceFolder}/${fileBasenameNoExtension}"
 
+   * Make sure that you enable ```externalConsole```.
+
+        ```
+        "externalConsole": true,
+        ```
    * Try debugging again and it should work.
 
 #### Helpfull user snippets
@@ -136,7 +141,7 @@ Ocasionaly you need to transer your files from your machine to our Ubuntu system
 * [Cyberduck](https://cyberduck.io/)
 * [FileZilla](https://filezilla-project.org/)
 * [Fetch (Mac only)](https://fetchsoftworks.com/)
-  
+
 ### Coding Style
 
 It is very important to follow a good/standard coding style. Refer to this document when writing code.

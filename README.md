@@ -28,18 +28,15 @@
 - [Coding Style](#coding-style)
 
 ### Installing **C/C++** compiler
-- Mac:
 
+- `Mac`:
     Install Xcode and run it once.
-- Linux:
+- `Linux`: Should already come with GNU g++ preinstalled.
 
-    Should already come with GNU g++ preinstalled.
-
-- Windows:
-
-    [Installation instructions](docs/Installing-minGW.pdf).
+- `Windows`: [Installation instructions](docs/Installing-minGW.pdf).
 
 ### Compiling and running the examples in this repository
+
 These are the programs discussed in class (demos). I encourage you to download them and try them. You may want to modify them and see what happens. Maybe design your own program using the concepts discussed in class.
 
 All programs should be compiled with the following command:
@@ -77,6 +74,7 @@ You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend
 ### VS Code Customization
 
 #### Extensions
+
 - C/C++ extension from Microsoft
 - Code Runner
 - Trailing Semicolon (recommended)
@@ -92,6 +90,7 @@ You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend
   - `Save File Before Run`
 
 #### Configure Code Runner to use "-Wall -g"
+
 - Go to the Settings menu
 - Search for "Executor Map" and click on "Settings.json"
 - Find "code-runner.executorMap"
@@ -103,10 +102,12 @@ You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend
          On Windows use "a.exe" instead of "./a.out"
 
 #### Configure the Debugger
-   the debugger depends on what executable file you set up in the previous step.
 
-   - Click on the debug icon on the left
-   - Click on the green arrow in the left panel, this should allow you to edit the debug options in "launch.json".
+the debugger depends on what executable file you set up in the previous step.
+
+- Click on the debug icon on the left
+- Click on the green arrow in the left panel, this should allow you to edit the debug options in "launch.json".
+
    - Change the "program" option to:
 
          "${workspaceFolder}/a.out"

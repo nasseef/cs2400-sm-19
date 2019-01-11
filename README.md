@@ -10,6 +10,7 @@
   **All examples discussed in class will be posted on this site.**
 
 ---
+
 - [Installing **C/C++** compiler](#installing-cc-compiler)
 - [Compiling and running the examples in this repository](#compiling-and-running-the-examples-in-this-repository)
 - [Recommended Editors](#recommended-editors)
@@ -27,14 +28,14 @@
 - [Coding Style](#coding-style)
 
 ### Installing **C/C++** compiler
-* Mac:
+- Mac:
 
     Install Xcode and run it once.
-* Linux:
+- Linux:
 
     Should already come with GNU g++ preinstalled.
 
-* Windows:
+- Windows:
 
     [Installation instructions](docs/Installing-minGW.pdf).
 
@@ -46,6 +47,7 @@ All programs should be compiled with the following command:
 ```console
     g++ -Wall filename.cc
 ```
+
 To compile with C++11 use the following command:
 
 ```console
@@ -64,36 +66,37 @@ To run your program:
 
 ### Recommended Editors
 You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend either Visual Studio Code or Atom. They are both free and highly customizable. See below for other editors.
-* [Visual Studio Code](https://code.visualstudio.com/), highly recommended
-* [Atom Editor](https://atom.io)
-* [Sublime Text](https://www.sublimetext.com) $$
-* [Emacs](https://www.gnu.org/software/emacs)
-* [Vim](https://www.vim.org)
-* [nano](https://www.nano-editor.org/)
-* and many others ....
+- [Visual Studio Code](https://code.visualstudio.com/), highly recommended
+- [Atom Editor](https://atom.io)
+- [Sublime Text](https://www.sublimetext.com) $$
+- [Emacs](https://www.gnu.org/software/emacs)
+- [Vim](https://www.vim.org)
+- [nano](https://www.nano-editor.org/)
+- and many others ....
 
 ### VS Code Customization
 
 #### Extensions
-* C/C++ extension from Microsoft
-* Code Runner
-* Trailing Semicolon (recommended)
+- C/C++ extension from Microsoft
+- Code Runner
+- Trailing Semicolon (recommended)
+- Code Spell Checker
 
 #### Configure the compiler to run in a terminal
 
-* Open the `Preferences` and click on `Settings`
-* Find the entry called `Run Code Configuration`
-* Enable the options:
-  * `Run in Terminal`
-  * `Save All Files Before Run`
-  * `Save File Before Run`
+- Open `Preferences` and click on `Settings`
+- Find the entry called `Run Code Configuration`
+- Enable the options:
+  - `Run in Terminal`
+  - `Save All Files Before Run`
+  - `Save File Before Run`
 
 #### Configure Code Runner to use "-Wall -g"
-* Go to the Settings menu
-* Search for "Executor Map" and click on "Settings.json"
-* Find "code-runner.executorMap"
-* Click on the edit icon on the left. This should create and entry on the right hand side
-* Modify the cpp option to the following:
+- Go to the Settings menu
+- Search for "Executor Map" and click on "Settings.json"
+- Find "code-runner.executorMap"
+- Click on the edit icon on the left. This should create and entry on the right hand side
+- Modify the cpp option to the following:
 
          "cd $dir && g++ -Wall -g $fileName && ./a.out"
 
@@ -102,9 +105,9 @@ You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend
 #### Configure the Debugger
    the debugger depends on what executable file you set up in the previous step.
 
-   * Click on the debug icon on the left
-   * Click on the green arrow in the left panel, this should allow you to edit the debug options in "launch.json".
-   * Change the "program" option to:
+   - Click on the debug icon on the left
+   - Click on the green arrow in the left panel, this should allow you to edit the debug options in "launch.json".
+   - Change the "program" option to:
 
          "${workspaceFolder}/a.out"
 
@@ -112,12 +115,12 @@ You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend
 
          "${workspaceFolder}/${fileBasenameNoExtension}"
 
-   * Make sure that you enable `externalConsole`.
+   - Make sure that you enable `externalConsole`.
 
         ```
         "externalConsole": true,
         ```
-   * Try debugging again and it should work.
+   - Try debugging again and it should work.
 
 #### Helpfull user snippets
 VSCode already has built-in snippets such as a *for* loop, *class*, etc. However, you can create your own. Open **User Snippets** under **Preferences**. If you are editing a C++ file then the file **cpp.json** should open automatically. Otherwise, you may have to select it. Here is a sample of snippets that I use [cpp-snippets.json](docs/cpp-snippets.json).
@@ -148,9 +151,10 @@ Here are some Linux commands and instructions to access our system remotely.
 
 ### SFTP Client
 Ocasionaly you need to transer your files from your machine to our Ubuntu system and vice versa. In order to do this you need to use an SFTP (Secure File Transfer Protocol) client. Here are few SFTP clients:
-* [Cyberduck](https://cyberduck.io/)
-* [FileZilla](https://filezilla-project.org/)
-* [Fetch (Mac only)](https://fetchsoftworks.com/)
+
+- [Cyberduck](https://cyberduck.io/)
+- [FileZilla](https://filezilla-project.org/)
+- [Fetch (Mac only)](https://fetchsoftworks.com/)
 
 ### Coding Style
 

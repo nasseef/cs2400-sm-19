@@ -15,7 +15,7 @@
 
 Your home directory is located under ```/home/<username>```. If your user/login name is ```jsmith``` then your home directory is ```/home/jsmith```. You are encouraged to create a separate directory for each of your classes and a separate diretory within your class for homeworks and labs.
 
-```sh
+```console
 pwd                       # Show working directory
 cd dir1                   # change to directory dir1
 cd or cd ~                # go to home directory
@@ -30,7 +30,7 @@ ls -al                    # list directory with more information
 ```
 
 ### File commands
-```sh
+```console
 mv file1.cc file2.cc      # renames file1.cc to file2.cc
 rm myfile.cc              # Remove/delete myfile.cc
 more myfile.cc            # Display the content of myfile.cc one screen at a time
@@ -42,7 +42,7 @@ grep xyz *                # Search all files for the content "xyz"
 ```
 
 ### Editing Files
-```sh
+```console
 code filename.cc          # Open filename.cc in VS Code
 atom filename.cc          # Open filename.cc in Atom
 nano filename.cc          # Open filename.cc in nano
@@ -52,8 +52,8 @@ emacs filename.cc         # Open filename.cc in emacs
 
 ### Compiling and Running C++ Programs
 
-```sh
-g++ -Wall  myprogram.cc   
+```console
+g++ -Wall  myprogram.cc
     # Compiles myprogram.cc and creates the executable a.out
 ./a.out                   # runs the program
 g++ -Wall myprogram.cc -o myprog

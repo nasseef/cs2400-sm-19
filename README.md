@@ -81,7 +81,7 @@ You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend
 
 #### Configure the compiler to run in a terminal
 
-* Open the `Settings` or `Preferences` and click on `Settings`
+* Open the `Preferences` and click on `Settings`
 * Find the entry called `Run Code Configuration`
 * Enable the options:
   * `Run in Terminal`

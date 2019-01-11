@@ -15,6 +15,7 @@
 - [Recommended Editors](#recommended-editors)
 - [VS Code Customization](#vs-code-customization)
   - [Extensions](#extensions)
+  - [Configure the compiler to run in a terminal](#configure-the-compiler-to-run-in-a-terminal)
   - [Configure Code Runner to use "-Wall -g"](#configure-code-runner-to-use-%22-wall--g%22)
   - [Configure the Debugger](#configure-the-debugger)
   - [Helpfull user snippets](#helpfull-user-snippets)
@@ -78,6 +79,15 @@ You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend
 * Code Runner
 * Trailing Semicolon (recommended)
 
+#### Configure the compiler to run in a terminal
+
+* Open the `Settings` or `Preferences` and click on `Settings`
+* Find the entry called `Run Code Configuration`
+* Enable the options:
+  * `Run in Terminal`
+  * `Save All Files Before Run`
+  * `Save File Before Run`
+
 #### Configure Code Runner to use "-Wall -g"
 * Go to the Settings menu
 * Search for "Executor Map" and click on "Settings.json"
@@ -102,7 +112,7 @@ You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend
 
          "${workspaceFolder}/${fileBasenameNoExtension}"
 
-   * Make sure that you enable ```externalConsole```.
+   * Make sure that you enable `externalConsole`.
 
         ```
         "externalConsole": true,

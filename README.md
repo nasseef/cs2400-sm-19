@@ -29,6 +29,8 @@
 
 ### Installing **C/C++** compiler
 
+---
+
 - `Mac`:
     Install Xcode and run it once.
 - `Linux`: Should already come with GNU g++ preinstalled.
@@ -45,13 +47,13 @@ All programs should be compiled with the following command:
     g++ -Wall filename.cc
 ```
 
-To compile with C++11 use the following command:
+> To compile with C++11 use the following command:
 
 ```console
    g++ -Wall -std=c++11 filename.cc
 ```
 
-To debug your program, add "-g" option to either of the above commands.
+> To debug your program, add "-g" option to either of the above commands.
 
 To run your program:
 
@@ -62,6 +64,9 @@ To run your program:
 ```
 
 ### Recommended Editors
+
+---
+
 You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend either Visual Studio Code or Atom. They are both free and highly customizable. See below for other editors.
 - [Visual Studio Code](https://code.visualstudio.com/), highly recommended
 - [Atom Editor](https://atom.io)
@@ -72,6 +77,8 @@ You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend
 - and many others ....
 
 ### VS Code Customization
+
+----
 
 #### Extensions
 
@@ -127,6 +134,9 @@ the debugger depends on what executable file you set up in the previous step.
 VSCode already has built-in snippets such as a *for* loop, *class*, etc. However, you can create your own. Open **User Snippets** under **Preferences**. If you are editing a C++ file then the file **cpp.json** should open automatically. Otherwise, you may have to select it. Here is a sample of snippets that I use [cpp-snippets.json](docs/cpp-snippets.json).
 
 ### Git/GitHub
+
+---
+
 We will be using Git/GitHub for version/source control (track changes to code). Here are some excellent tutorials that introduce the concepts and shows the most important commands you need to learn.
 
 https://www.youtube.com/watch?v=uR6G2v_WsRA
@@ -137,7 +147,7 @@ https://www.youtube.com/watch?v=MJUJ4wbFm_A
 
 https://git-scm.com/download/
 
-Note: Git might already be installed on your Mac or Linux machines.
+> Note: Git might already be installed on your Mac or Linux machines.
 
 #### Create a GitHub account
 
@@ -146,11 +156,17 @@ Make sure you create a student account on GitHub using your school email (.edu).
 https://education.github.com/students
 
 ### Linux Commands and Remote Login/File Transfer
+
+---
+
 Here are some Linux commands and instructions to access our system remotely.
 
 [Linux Commands and Remote Access](docs/linux.md)
 
 ### SFTP Client
+
+---
+
 Ocasionaly you need to transer your files from your machine to our Ubuntu system and vice versa. In order to do this you need to use an SFTP (Secure File Transfer Protocol) client. Here are few SFTP clients:
 
 - [Cyberduck](https://cyberduck.io/)
@@ -158,6 +174,8 @@ Ocasionaly you need to transer your files from your machine to our Ubuntu system
 - [Fetch (Mac only)](https://fetchsoftworks.com/)
 
 ### Coding Style
+
+---
 
 It is very important to follow a good/standard coding style. Refer to this document when writing code.
 [CS 2400 Coding Style](docs/coding-style.md)

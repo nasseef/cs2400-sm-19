@@ -3,7 +3,7 @@
 
 * Use a consistant style for naming identifiers
   * ```camelCase``` or ```snake_case```
-* Use meaningful variable names that describe the content of the variable, the purpose of the function, or the class. 
+* Use meaningful variable names that describe the content of the variable, the purpose of the function, or the class.
   * ```employeeSalary``` instead of ```es```
   * ```Employee``` instead of ```e```
 * Add a space around operators
@@ -21,7 +21,7 @@
   //*****************************************************************
   //  Function:   findSpaceCost
   //
-  //  Purpose:    calculates and returns the charge for shipping cargo  
+  //  Purpose:    calculates and returns the charge for shipping cargo
   //              between two planets.
   //
   //  Parameters: distance - distance in miles between two planets
@@ -47,7 +47,7 @@
   }
   ```
 
-* Keep lines at a reasonable length. 
+* Keep lines at a reasonable length.
 * Break long statements into either multiple statements or multiple lines
 * Skip lines between logical groups of statements
 * Limit the scope of variables. Use local variables
@@ -58,7 +58,7 @@
   ```cpp
   inStream.open("somefile.txt");
   if (inStream.fail()) {
-      cout << "File is not accessable" << endl; 
+      cout << "File is not accessable" << endl;
       exit(1);
   }
   ```

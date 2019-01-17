@@ -53,10 +53,10 @@ Keep the default installation directory `C:\MinGW`.
 
 ### Try the new compiler
 
-1. Create a program in an editor of your choice, save it in a directory of your choice
-2. Start the terminal window (step 11 above)
-3. Change to the directory where the program is stored (using the `cd` command)
-4. Compile and run the program (assuming the name of your program is `first.cc`)
+- Create a program in an editor of your choice, save it in a directory of your choice
+- Start the terminal window (step 11 above)
+- Change to the directory where the program is stored (using the `cd` command)
+- Compile and run the program (assuming the name of your program is `first.cc`)
     ```console
     g++ -Wall first.cc
     a.exe
@@ -69,7 +69,7 @@ Keep the default installation directory `C:\MinGW`.
     first.exe
     ```
 
-    > For C compiler, use `gcc` and name your program with `.c` extension. If you encounter any issues please let me know.
+    > For the C compiler, use `gcc` and name your program with `.c` extension. If you encounter any issues please let me know.
 
 ---
 
@@ -77,7 +77,6 @@ Keep the default installation directory `C:\MinGW`.
 
 The mingGW tools comes with a make utility called `mingw32-make`. This is what you want to run instead of `make`. However, You can create a symbolic link to `mingw32-make` called `make`
 
-#### Steps:
 - In Windows, click on the search icon at the bottom of you screen and type `cmd` (Do not hit enter). It should list the choice `CMD.exe`
 
 - Right-click on `CMD.exe` and select `Run as administrator`

@@ -35,7 +35,7 @@
     Install Xcode and run it once.
 - `Linux`: Should already come with GNU g++ preinstalled.
 
-- `Windows`: [Installation instructions](docs/Installing-minGW.pdf).
+- `Windows`: [Installation instructions](docs/installing-minGW.md).
 
 ### Compiling and running the examples in this repository
 

@@ -18,13 +18,12 @@ int main(int argc, char const *argv[]) {
     double rate, hours;
     hours = 30;
     rate = 10;
-    
+
     //3 calculation
     double wages;
     wages = rate * hours;
 
     //4 output
     cout << "Wages = " << wages << endl;
-
     return 0;
 }// main

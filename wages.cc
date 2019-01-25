@@ -8,16 +8,20 @@
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
+
 using namespace std;
 
 //function prototypes
 
 int main(int argc, char const *argv[]) {
 
-    //1, 2
-    double rate, hours;
-    hours = 30;
+    //1
+    double rate;
     rate = 10;
+
+    //2
+    double  hours;
+    hours = 30;
 
     //3 calculation
     double wages;

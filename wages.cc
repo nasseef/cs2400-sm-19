@@ -17,11 +17,13 @@ int main(int argc, char const *argv[]) {
 
     //1
     double rate;
-    rate = 10;
 
+    cout << "Enter the rate: ";
+    cin >> rate;
     //2
     double  hours;
-    hours = 30;
+    cout << "Enter the number of hours: ";
+    cin >> hours;
 
     //3 calculation
     double wages;

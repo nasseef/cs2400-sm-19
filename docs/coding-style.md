@@ -8,7 +8,7 @@
   * ```Employee``` instead of ```e```
 * Add a space around operators
   * ```total = amount + tax;``` instead of ```total=amount+tax;```
-* Add documentations througout your program
+* Add documentations throughout your program
   * Start by adding documentation for the whole program at the top of the file that includes:
     * File name
     * Author name

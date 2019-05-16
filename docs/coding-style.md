@@ -20,21 +20,18 @@
 * Add documentation for each of the functions under the prototype. For example:
 
   ```cpp
-  //*****************************************************************
-  //  Function:   findSpaceCost
-  //
-  //  Purpose:    calculates and returns the charge for shipping cargo
-  //              between two planets.
-  //
-  //  Parameters: distance - distance in miles between two planets
-  //              weight   - weight in pounds of item being shipped
-  //
-  // Pre Conditions: variables distance and weight have valid values
-  //
-  // Post Conditions: returns the cost in dollars of shipping a
-  //                  package that weighs weight pounds a distance
-  //                  of distance miles.
-  //******************************************************************
+  double finSpaceCost(double distance, doubel weight);
+  /*
+   *  Function:   findSpaceCost
+   *              calculates and returns the charge for shipping cargo
+   *              between two planets.
+   *
+   *  @param distance - distance in miles between two planets
+   *  @param weight   - weight in pounds of item being shipped
+   *  @return - the space cost in dollars
+   */
+
+
   ```
 
 * Always prompt the user for input

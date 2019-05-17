@@ -22,20 +22,30 @@ int main(int argc, char const *argv[]) {
 
     cout << "Enter the rate: ";
     cin >> rate;
-    if(rate <= 0) {
-        cout << "Error: invalid rate. Enter > 0" << endl;
+    if(rate <= 0 || rate > 150) {
+        cout << "Error: invalid rate. Enter 0 < rate <= 150" << endl;
         return 0;
     }
     cout << "Enter the hours: ";
     cin >> hours;
-    if(hours < 0){
-        cout << "Error: invalid number of hours. Enter >= 0" << endl;
+    if(hours < 0 || hours > 120){
+        cout << "Error: invalid number of hours. Enter a number"
+             << " between 0 and 120" << endl;
         return 0;
     }
     //2. Calculation
     //a
 
-    wages = rate * hours;
+    //calculate overtime
+
+    if(hours <= 40){
+        wages = rate * hours;
+    }
+    else {
+        double overtime = (hours - 40) * rate * 1.5;
+        wages = rate * 40 + overtime;
+    }
+
 
     //b
     cout << "Wages: $" << wages << endl;

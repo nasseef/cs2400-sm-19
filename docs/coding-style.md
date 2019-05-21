@@ -16,11 +16,11 @@
     * Author name
     * Date
     * Description of the program
-* Each statement should on a line by itself
+* Each statement should be on a line by itself
 * Add documentation for each of the functions under the prototype. For example:
 
   ```cpp
-  double finSpaceCost(double distance, doubel weight);
+  double finSpaceCost(double distance, double weight);
   /*
    *  Function:   findSpaceCost
    *              calculates and returns the charge for shipping cargo
@@ -46,7 +46,7 @@
   }
   ```
 
-* Keep lines at a reasonable length.
+* Keep lines at a reasonable length
 * Break long statements into either multiple statements or multiple lines
 * Skip lines between logical groups of statements
 * Limit the scope of variables. Use local variables
@@ -70,8 +70,8 @@
 * All member variables should be in the private section of the class
 * Always include a default constructor
 * When using dynamic allocation always include a destructor and a copy constructor
-* Always include getter/accessors and setters/mutators
-* When using separate compilation, always guard against multiple includes of the same class
+* Always include getter (accessors) and setters (mutators)
+* When using separate compilation, always guard against multiple includes of the same class (using `#ifndef`)
 * Class example:
 
   ```cpp

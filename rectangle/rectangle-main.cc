@@ -23,32 +23,34 @@ public:
     void setLength(double newLength);
     void setWidth(double newWidth);
 
-    void output(ostream &out)const; //display the rectangle
+    friend ostream& operator <<(ostream &out, const Rectangle &r); //display the rectangle
     double area() const;
+    friend bool operator ==(const Rectangle &r1, const Rectangle &r2);
 private:
     double length;
     double width;
 }; //; important
 
 //function prototypes
-bool equal(const Rectangle &r1, const Rectangle &r2);
 
 int main(int argc, char const *argv[]) {
     Rectangle r;
-    r.output(cout);
-    cout << endl;
+    cout << r << endl;
+   
     Rectangle r2(8, 5);
     r2.setLength(10);
-    r2.output(cout);
-    cout << endl;
+    cout << r2 << endl;
+   
     cout << "Length: " << r2.getLength() << endl;
-    if (equal(r, r2))
+    Rectangle r3(10, 5);
+    if (r3 == r2)
     {
         cout << "Equal" << endl;
     }
     else {
         cout << "Not equal" << endl;
     }
+  
     
     return 0;
 }// main
@@ -95,12 +97,13 @@ void Rectangle::setWidth(double newWidth) {
 double Rectangle::area() const{
     return length * width;
 }
-void Rectangle::output(ostream &out) const{
-    out << "(" << length << "x" << width << ")";
+ostream& operator <<(ostream &outs, const Rectangle &r){
+    outs << "(" << r.length << "x" << r.width << ")";
+    return outs;
 }
 
-bool equal(const Rectangle &r1, const Rectangle &r2){
-    if (r1.getLength() == r2.getLength() && r1.getWidth() == r2.getWidth())
+bool operator ==(const Rectangle &r1, const Rectangle &r2){
+    if (r1.length == r2.length && r1.width == r2.width)
     {
         return true;
     }

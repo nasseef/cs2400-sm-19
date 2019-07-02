@@ -11,21 +11,21 @@
 
 ---
 
-- [Installing **C/C++** compiler](#installing-cc-compiler)
-- [Compiling and running the examples in this repository](#compiling-and-running-the-examples-in-this-repository)
-- [Recommended Editors](#recommended-editors)
-- [VS Code Customization](#vs-code-customization)
-  - [Extensions](#extensions)
-  - [Configure the compiler to run in a terminal](#configure-the-compiler-to-run-in-a-terminal)
-  - [Configure Code Runner to use "-Wall -g"](#configure-code-runner-to-use-%22-wall--g%22)
-  - [Configure the Debugger](#configure-the-debugger)
-  - [Helpfull user snippets](#helpfull-user-snippets)
-- [Git/GitHub](#gitgithub)
-  - [Git Installation](#git-installation)
-  - [Create a GitHub account](#create-a-github-account)
-- [Linux Commands and Remote Login/File Transfer](#linux-commands-and-remote-loginfile-transfer)
-- [SFTP Client](#sftp-client)
-- [Coding Style](#coding-style)
+- [Installing **C/C++** compiler](#Installing-CC-compiler)
+- [Compiling and running the examples in this repository](#Compiling-and-running-the-examples-in-this-repository)
+- [Recommended Editors](#Recommended-Editors)
+- [VS Code Customization](#VS-Code-Customization)
+  - [Extensions](#Extensions)
+  - [Configure the compiler to run in a terminal](#Configure-the-compiler-to-run-in-a-terminal)
+  - [Configure Code Runner to use "-Wall -g"](#Configure-Code-Runner-to-use-%22-Wall--g%22)
+  - [Configure the Debugger](#Configure-the-Debugger)
+  - [Helpfull user snippets](#Helpfull-user-snippets)
+- [Git/GitHub](#GitGitHub)
+  - [Git Installation](#Git-Installation)
+  - [Create a GitHub account](#Create-a-GitHub-account)
+- [Linux Commands and Remote Login/File Transfer](#Linux-Commands-and-Remote-LoginFile-Transfer)
+- [SFTP Client](#SFTP-Client)
+- [Coding Style](#Coding-Style)
 
 ### Installing **C/C++** compiler
 
@@ -100,8 +100,8 @@ You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend
 #### Configure Code Runner to use "-Wall -g"
 
 - Go to the Settings menu
-- Search for "Executor Map" and click on "Settings.json"
-- Find "code-runner.executorMap"
+- Search for `Executor Map` and click on "Settings.json"
+- Find `code-runner.executorMap`
 - Click on the edit icon on the left. This should create and entry on the right hand side
 - Modify the cpp option to the following:
 
@@ -116,7 +116,7 @@ the debugger depends on what executable file you set up in the previous step.
 - Click on the debug icon on the left
 - Click on the green arrow in the left panel, this should allow you to edit the debug options in "launch.json".
 
-   - Change the "program" option to:
+   - Change the `program` option to:
 
          "${workspaceFolder}/a.out"
 
@@ -124,7 +124,7 @@ the debugger depends on what executable file you set up in the previous step.
 
          "${workspaceFolder}/${fileBasenameNoExtension}"
 
-   - Make sure that you enable `externalConsole`.
+   - Make sure you enable `externalConsole`.
 
         ```
         "externalConsole": true,
@@ -139,6 +139,8 @@ VSCode already has built-in snippets such as a *for* loop, *class*, etc. However
 ---
 
 We will be using Git/GitHub for version/source control (track changes to code). Here are some excellent tutorials that introduce the concepts and shows the most important commands you need to learn.
+
+https://www.youtube.com/watch?v=HVsySz-h9r4 
 
 https://www.youtube.com/watch?v=uR6G2v_WsRA
 
